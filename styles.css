@@ -1,0 +1,155 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0px
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+	display: flex;
+	gap: 24px;
+}
+
+a {
+	text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+button {
+	background-color: #3882f6;
+	color: #f9faf8;
+	padding: 8px 32px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 8px;
+}
+
+.header {
+	padding: 16px 200px 100px;
+	background-color: #1F2937;
+	color: #f9faf8;
+	font-size: 24px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.hero {
+	background-color: #1F2937;
+	display: flex;
+	padding: 16px 200px 100px;
+	justify-content: space-between;
+	gap: 32px;
+}
+
+.heromain {
+	color: #f9faf8;
+	font-size: 48px;
+	font-weight: bolder;
+}
+
+.herosecond {
+  color: #e5e7eb;
+  font-size: 18px;
+	padding: 8px 0px;
+}
+
+.left {
+	height: 300px;
+}
+
+.heroimg {
+	height: 240px;
+}
+
+.information {
+	padding-bottom: 120px;
+}
+
+.title {
+	color: #1F2937;
+	font-size: 36px;
+	font-weight: 800;
+	text-align: center;
+	padding: 48px;
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	gap: 48px;
+	flex-wrap: wrap;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 160px;
+	font-size: 18px;
+	color: #1F2937
+}
+
+.cardimg {
+	border: 4px solid #3882f6;
+	border-radius: 16px;
+}
+
+.quote {
+	padding: 150px 300px;
+	background-color: #e5e7eb;
+}
+
+.quotetext {
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+	columns: #1f2937;
+}
+
+.quoteauthor {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: right;
+}
+
+.call {
+	padding: 100px 180px;
+}
+
+.bar {
+	padding: 48px 100px;
+	background-color: #3882f6;
+	border-radius: 16px;
+	color: #e5e7eb;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.calltitle {
+	font-size: 32px;
+}
+
+.calltitle {
+	font-size: 24px;
+}
+
+.callbutt {
+	border-color: white;
+	border-style: solid;
+}
+
+
+.footer {
+	padding: 32px 0px;
+	text-align: center;
+	background-color: #1F2937;
+	color: #f9faf8
+}
