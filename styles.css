@@ -43,8 +43,10 @@ button {
 .hero {
 	background-color: #1F2937;
 	display: flex;
+	margin: auto;
 	padding: 16px 200px 100px;
 	justify-content: space-between;
+	align-items: center;
 	gap: 32px;
 }
 
@@ -61,11 +63,12 @@ button {
 }
 
 .left {
-	height: 300px;
+	width: 500px;
 }
 
 .heroimg {
-	height: 240px;
+	max-width: 50%;
+	height: auto;
 }
 
 .information {
